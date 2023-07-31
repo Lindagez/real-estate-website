@@ -1,0 +1,36 @@
+.contact {
+    --color-box-background: #f7f7f7;
+  }
+  
+  .contact .info-item {
+    background: var(--color-box-background);
+    padding: 30px;
+  }
+  
+  .contact .info-item i {
+    font-size: 38px;
+    line-height: 0;
+    color: var(--color-primary);
+  }
+  
+  .contact .info-item h3 {
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+  
+  .contact .info-item p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .ls{
+    min-height: 100vh;
+  }
+  .s{
+    background-image: url(../../components/resources/images/contactus.jpg ) center;
+    background-size: cover;
+  }

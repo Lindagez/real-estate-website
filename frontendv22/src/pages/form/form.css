@@ -1,0 +1,64 @@
+.d-1{
+  background-color: rgb(35, 189, 189);
+  
+}
+.d-2{
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 10;
+}
+.form1 {
+  width: 150vh;
+  /* min-height: 50vh; */
+  margin: 0 auto;
+  padding: 10px;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.form-header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-body {
+  padding: 10px;
+}
+
+.form-footer {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.input-with-text {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+
+.input-with-text::after {
+  content: "Your Name";
+  padding-left: 10px;
+}
+.d-3{
+
+  justify-content: space-between;
+}
+.d-4 {
+  justify-content: space-between;
+}
+

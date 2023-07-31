@@ -1,0 +1,76 @@
+
+
+
+    .js{
+        background-color:rgba(0,0,0,0.5);
+        border-radius: 20px;
+
+        
+    }
+
+
+.lo{
+    color: rgb(255, 255, 255);
+}
+
+.li-1{
+    background-image: url(../../components/resources/images/bld.jpeg);
+    background-size: cover;
+   
+}
+.li-2{
+  min-height: 100vh;
+
+}
+.login_butt {
+  display: block;
+  margin: 1.5rem auto 1rem auto;
+  width: 60%;
+  max-width: 60%;
+  min-width: 50%;
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  outline: 0;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #939fe9;
+  color: #040404;
+  border: 2px solid transparent;
+}
+
+.login_butt:hover {
+  border: 2px solid #7584e6;
+  background-color: #645f5f;
+}
+
+
+.lbu {
+    display: block;
+    margin: 1.5rem auto 1rem auto;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #939fe9;
+    color: #040404;
+    border: 2px solid transparent;
+  }
+  .f3{
+    font-size: 3vh;
+  }
+  .f4{
+    border-radius: 25px;
+  }
+  .contair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .input-f input {
+   border-radius:18px !important;
+  }

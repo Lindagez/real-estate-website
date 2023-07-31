@@ -1,0 +1,88 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+   */
+.margin-f{
+  justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+.jss{
+  background-color:aliceblue;
+  border-radius: 20px;
+  margin-top: 20%;
+
+  
+}
+
+
+.loo{
+color: rgb(255, 255, 255);
+}
+
+.lii-1{
+/* background-image: url(../../components/resources/images/bld.jpeg); */
+background-size: cover;
+
+}
+.lii-2{
+min-height: 100vh;
+
+}
+.login_butt0 {
+display: block;
+margin: 1.5rem auto 1rem auto;
+width: 60%;
+max-width: 60%;
+min-width: 50%;
+padding: 0.75rem 1rem;
+border-radius: 25px;
+outline: 0;
+font-size: 1rem;
+font-family: inherit;
+cursor: pointer;
+background-color: #939fe9;
+color: #040404;
+border: 2px solid transparent;
+}
+
+.login_butto:hover {
+border: 2px solid #7584e6;
+background-color: #645f5f;
+}
+
+
+.lbuu {
+display: block;
+margin: 1.5rem auto 1rem auto;
+width: 100%;
+padding: 0.75rem 1rem;
+border-radius: 25px;
+outline: 0;
+font-size: 1rem;
+font-family: inherit;
+cursor: pointer;
+background-color: #939fe9;
+color: #f5eeee;
+border: 2px solid transparent;
+}
+.f3{
+font-size: 3vh;
+}
+.f4{
+border-radius: 25px;
+}
+.contair {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.input-f input {
+border-radius:18px !important;
+}
