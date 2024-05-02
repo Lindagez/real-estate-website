@@ -1,0 +1,145 @@
+/* Updated one */
+
+.container-wrapper {
+  background-color: #f8f8f8;
+}
+
+.pro-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.pro-head > .pro-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-container {
+  width: 62%;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: #f8f8f8;
+}
+
+@media only screen and (max-width: 1400px) {
+  .property-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .property-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .property-container {
+    width: 98%;
+  }
+}
+
+.pro-images {
+  /* width: 60%; */
+  margin: auto;
+}
+
+.pro-images img {
+  /* width: 100%; */
+}
+
+.pro-other {
+  display: flex;
+  justify-content: space-between;
+  /* overflow: auto; */
+  /* position: relative; */
+}
+
+.pro-scrollable {
+  width: 70%;
+  min-height: 100vh;
+  margin-bottom: 20px;
+}
+
+.pro-fixed {
+  /* background-color: red; */
+  width: 28%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .pro-other {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pro-scrollable {
+    width: 90%;
+  }
+
+  .pro-fixed {
+    width: 90%;
+  }
+}
+
+.pro-form {
+  position: sticky;
+  top: 20px;
+  right: 0;
+  background-color: #fff;
+}
+
+.pro-form button {
+  margin: 0;
+  padding:0;
+}
+
+.form-element {
+  margin: 10px 5px !important;
+}
+
+.form-group {
+  margin-top: 20px;
+  width: 98%;
+}
+
+.pro-form {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.info-section {
+  background-color: #fff;
+    margin-top: 20px;
+}
+
+.info-title {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.info-title hr {
+  background-color: #000000;
+  width: 100%;
+  border-width: 10px;
+}
+
+.info-content {
+  padding: 0 15px 10px 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-content > div {
+  margin: 7px 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.info-content {
+  flex-direction: column;
+}
+}

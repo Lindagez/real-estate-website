@@ -1,0 +1,139 @@
+.f {
+  width: 100%;
+  height: 200px;
+
+  object-fit: cover;
+}
+.i {
+  background: url(../../../components/resources/images/sub-banner.jpg) center;
+  background-size: cover;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+.j {
+  font-size: 30;
+  color: brown;
+}
+.k {
+  padding-left: -65%;
+}
+
+.m {
+  height: 50vh;
+  width: 50%;
+  padding-left: 25%;
+  border-radius: 5%;
+  display: flex;
+  margin: 5%;
+  border-radius: 5%;
+}
+.ll {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 25%;
+}
+.wi {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 25%;
+}
+.cont {
+  justify-content: space-between;
+  display: flex;
+}
+.b-7 {
+  padding: 128px 16px;
+}
+#about {
+  padding: 80px 0;
+  color: rgb(0, 0, 0);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img {
+  width: 150%;
+  height: 100%;
+  border-radius: 15px;
+}
+.about-col-2 {
+  flex-basis: 50%;
+}
+.about-col-2 p {
+  font-size: 20px;
+}
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(4, 4, 4);
+}
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-links::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after {
+  width: 50%;
+}
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.tab-contents ul li span {
+  color: rgb(45, 46, 48);
+  font-size: 20px;
+}
+
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+}
+.tab-contents i {
+  font-size: 20px;
+  color: #ff004f;
+  margin-right: 15px;
+}
+
+.c-0 {
+  color: black;
+}
+.mm {
+  padding: 128px 16px;
+}
+.mc {
+  margin-top: 64px;
+}
+
+.z-x {
+  font-weight: 300;
+  font-size: 120%;
+}

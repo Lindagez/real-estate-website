@@ -1,0 +1,44 @@
+.promo-section {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.promo-container {
+  background-color: blue;
+  min-height: 80vh;
+  width: 100%;
+  position: absolute;
+  background-color: #494976;
+  transform-origin: top left;
+  transform: skewY(3.5deg);
+  top: 3vh;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-container-adjusted {
+    transform: skewY(-3.5deg);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.promo-title {
+
+}
+
+.promo-headline {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+@media only screen and (max-width: 500px) {
+  .column-later {
+    flex-direction: column;
+  }
+}

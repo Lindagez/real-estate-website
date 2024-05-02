@@ -1,0 +1,32 @@
+.login-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  padding: 50px 20px;
+  width: 30%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .login-form {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .login-form {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .login-form {
+    width: 90%;
+  }
+}
+

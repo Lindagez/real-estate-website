@@ -1,0 +1,119 @@
+.background-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.item-center {
+  align-items: center;
+}
+
+/* height */
+
+.h-screen-full {
+  min-height: 100vh;
+}
+
+/* width */
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+
+/* text */
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* background */
+
+.bg-overlay-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* padding */
+
+.p-1 {
+  padding: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.p-4 {
+  padding: 40px;
+}
+
+.p-5 {
+  padding: 50px;
+}
+
+/* border */
+
+.border-1 {
+  border-radius: 10px;
+}
+
+/* font */
+
+.f-extra
+{
+  font-size: 300%;
+}
+
+.f-description {
+  font-size: 150%;
+}
+
+.f-cursive {
+  font-family: cursive;
+}
+
+/* color */
+
+.color-white {
+  color: #f2f2f2;
+}
+
+/* media */
+
+@media only screen and (max-width: 1000px) {
+  .w-half {
+    width: 90%;
+  }
+
+  .f-extra {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .f-extra {
+    font-size: 100%;
+  }
+}

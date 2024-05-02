@@ -1,0 +1,33 @@
+.contact-section {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  width: 70%;
+  padding: 30px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    width: 80%;
+    padding: 30px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-container {
+    width: 98%;
+    padding: 30px 0px;
+  }
+}
+
+.form-prop > label {
+  margin-top: 10px;
+}
+
+.form-prop > input {
+  margin-bottom: 10px;
+}

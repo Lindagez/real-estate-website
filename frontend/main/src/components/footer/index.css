@@ -1,0 +1,47 @@
+.footer {
+    position: relative;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #034078;
+    
+  }
+  .scroll__container {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    line-height: 0;
+    -webkit-overflow-scrolling: touch;
+  
+    cursor: grab;
+  }
+  .scrollspy-example {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+  }
+  .scrollable {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .jj {
+    background-color:#494976 !important;
+    
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:black;
+    border-radius: 5px;
+  }
+  .z-9{
+    color: rgb(255, 255, 255);
+  }
+  

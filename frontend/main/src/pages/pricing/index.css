@@ -1,0 +1,79 @@
+@media (max-width: 767.98px) {
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+}
+.f {
+  width: 100%;
+  height: 300px;
+  /* height:  60px; */
+  object-fit: cover;
+}
+.z {
+  background: url(../../components/resources/images/sub-banner.jpg) center !important;
+  background-size: cover;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+.j {
+  font-size: 30;
+  color: brown;
+}
+.k {
+  padding-left: 65%;
+}
+
+.m {
+  height: 60vh;
+  width: 50%;
+  padding-left: 10%;
+  border-radius: 5%;
+  display: flex;
+  margin: auto;
+  border-radius: 5%;
+}
+.ll {
+  padding-left: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .border-sm-start-none {
+    border-left: none !important;
+  }
+}
+
+.pro-list-container {
+  background-color: #f8f8f8;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.list-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .list-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .list-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .list-container {
+    width: 95%;
+  }
+}
+
+.pro-list-card {
+  background-color: #fff;
+  margin: 30px 7px;
+}

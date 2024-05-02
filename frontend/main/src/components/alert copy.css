@@ -1,0 +1,39 @@
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.alert.visible {
+  opacity: 1;
+}
+
+.alert.hidden {
+  display: none;
+}
+
+.close-button {
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 5px;
+  align-self: flex-end;
+}
+
+.alert-content {
+  padding: 10px;
+}
+
+.countdown-bar {
+  height: 5px;
+  background-color: #007bff;
+  width: 100%;
+  transition: width 1s linear;
+}
